@@ -1,9 +1,9 @@
 import React from 'react'
 
 function TaskList({tasksArray, deleteTaskFromArray}) {
-    tasksArray.map((task, index) => {
+    tasksArray.map((task, index) =>
         console.log(index, task)
-    })
+    )
 
     return (
         <div>
